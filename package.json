@@ -1,0 +1,35 @@
+{
+  "name": "typescriptpratice",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "webpack --config build/webpack.conf.prod.js",
+    "dev": "webpack-dev-server --config build/webpack.conf.dev.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crossskyLi/TypeScriptPratice.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "crossskyli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crossskyLi/TypeScriptPratice/issues"
+  },
+  "homepage": "https://github.com/crossskyLi/TypeScriptPratice#readme",
+  "dependencies": {
+    "webpack": "^4.36.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-merge": "^4.2.1"
+  }
+}
