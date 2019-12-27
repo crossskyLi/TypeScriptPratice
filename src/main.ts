@@ -1,6 +1,7 @@
-import f from "./function"
+import decoratorUse from "./decoratorUse"
+import interfaceA from "./interfaceA"
+import genericType from "./genericType"
 
-console.log("my first webpack ts app")
-export default {
-
+function main(): void {
+  console.log(interfaceA)
 }
